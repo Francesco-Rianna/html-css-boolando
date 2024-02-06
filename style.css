@@ -6,3 +6,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*-------------------
+    GRID LAYOUT
+-------------------*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*------------
+ HEADER
+ ------------ */
+
+.bg-head {
+    min-height: 43px;
+    background-color: #ff6900;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: white;
+
+}
+
+.center {
+    padding-right: 5px;
+
+}
