@@ -133,3 +133,27 @@ MAIN
 .card:hover .card-image-default {
     display: none;
 }
+
+/* ---------------
+FOOTER
+-----------------*/
+
+.bg-foot {
+    background-color: black;
+    min-height: 70px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+    color: white;
+
+}
+
+.contact {
+
+    margin-top: 10px;
+
+}
+
+.legal-info {
+    margin-top: 10px;
+
+}
