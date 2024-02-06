@@ -7,16 +7,44 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+
+
 /*-------------------
     GRID LAYOUT
 -------------------*/
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*------------
+ TIPOGRAPHY
+ ------------ */
+.brand {
+    color: #000000;
+
+}
+
+.description {
+    font-weight: bold;
+}
+
+.price {
+    color: #ff0000;
+}
+
+.full-price {
+    text-decoration: line-through;
+
+}
+
 
 
 /*------------
@@ -40,4 +68,52 @@
 .center {
     padding-right: 5px;
 
+}
+
+/* ---------------
+MAIN 
+-----------------*/
+
+.section-top {
+    display: flex;
+    padding-top: 30px;
+
+}
+
+.down {
+    margin-top: 50px;
+}
+
+
+.box {
+    width: calc(100% / 3);
+    margin-right: 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    bottom: 30px;
+}
+
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+.percent {
+    background-color: red;
+}
+
+.sos {
+    background-color: green;
 }
