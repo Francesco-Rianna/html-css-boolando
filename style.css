@@ -56,6 +56,10 @@ main {
 
 }
 
+.heart-hover {
+    color: red;
+}
+
 
 
 /*------------
@@ -133,6 +137,9 @@ MAIN
     background-color: green;
 }
 
+/* ---------------
+HOVER 
+------------------*/
 .card .card-image-hover {
     display: none;
 }
@@ -144,6 +151,20 @@ MAIN
 .card:hover .card-image-default {
     display: none;
 }
+
+.heart .heart-hover {
+    display: none;
+}
+
+.heart:hover .heart-default {
+    display: none;
+}
+
+.heart:hover .heart-hover {
+    display: block;
+}
+
+
 
 /* ---------------
 FOOTER
