@@ -82,6 +82,7 @@ main {
 
 .center img {
     padding-right: 60px;
+
     height: 20px;
 }
 
@@ -126,7 +127,8 @@ MAIN
     background-color: white;
     width: 40px;
     height: 40px;
-    padding: 10px 12px;
+    text-align: center;
+    line-height: 40px;
     font-size: 20px;
 }
 
@@ -145,8 +147,12 @@ HOVER
     display: none;
 }
 
+.card .card-image-default {
+    display: block;
+}
+
 .card:hover .card-image-hover {
-    display: inline-block;
+    display: block;
 }
 
 .card:hover .card-image-default {
