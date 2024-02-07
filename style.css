@@ -80,8 +80,9 @@ main {
 
 }
 
-.center {
+.center img {
     padding-right: 60px;
+    height: 20px;
 }
 
 .awesome {
@@ -145,7 +146,7 @@ HOVER
 }
 
 .card:hover .card-image-hover {
-    display: block;
+    display: inline-block;
 }
 
 .card:hover .card-image-default {
